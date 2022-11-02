@@ -100,21 +100,21 @@ function App() {
             </Boxproject>
 
             <Boxproject id='uuid'>
-              <a id='uuid' target="_blank" href='https://coinconverter.odilolalmeida.tech'><Projectimg src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/coin-converter.png?raw=true"/></a>
+              <a id='uuid' target="_blank" href='https://sapientiamnullam.weebly.com/uploads/6/4/1/2/64128749/1435528_orig.jpg'><Projectimg src="./src/assets/coin-converter.png"/></a>
               <Description id='uuid'>Conversor Monetário | JavaScript</Description>
-              <ProjectLink id='uuid' href="https://github.com/odiloalmeida/coin-converter" target="_blank">Link Repositório</ProjectLink>
+              <ProjectLink id='uuid' href="https://sapientiamnullam.weebly.com/uploads/6/4/1/2/64128749/1435528_orig.jpg" target="_blank">Link Repositório</ProjectLink>
             </Boxproject>
 
             <Boxproject id='uuid'>
-              <a id='uuid' target="_blank" href='https://ps5store.odilolalmeida.tech'><Projectimg src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/ps5store.png?raw=true"/></a>
+              <a id='uuid' target="_blank" href='https://odiloalmeida.github.io/ps5-store/'><Projectimg src="./src/assets/ps5store.png"/></a>
               <Description id='uuid'>Ps5 Store | JavaScript</Description>
               <ProjectLink id='uuid' href="https://github.com/odiloalmeida/ps5-store" target="_blank">Link Repositório</ProjectLink>
             </Boxproject>
 
             <Boxproject id='uuid'>
-              <a id='uuid' target="_blank" href='https://insta-clone.odilolalmeida.tech'><Projectimg src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/insta.png?raw=true"/></a>
-              <Description id='uuid'>Clone Instagram</Description>
-              <ProjectLink id='uuid' href="https://github.com/odiloalmeida/instagram-clone" target="_blank">Link Repositório</ProjectLink>
+              <a id='uuid' target="_blank" href='https://sapientiamnullam.weebly.com/uploads/6/4/1/2/64128749/1435528_orig.jpg'><Projectimg src="./src/assets/coin-converter.png"/></a>
+              <Description id='uuid'>(Não sei | nem pq)</Description>
+              <ProjectLink id='uuid' href="https://sapientiamnullam.weebly.com/uploads/6/4/1/2/64128749/1435528_orig.jpg" target="_blank">Link Repositório</ProjectLink>
             </Boxproject>
 
           </Project>
@@ -128,22 +128,22 @@ function App() {
           <Subtitle id='footer'>Minhas redes</Subtitle>
 
             <Social id='uuid' target='_blank' href='https://www.linkedin.com/in/odilo-almeida-7538a4236/'><SocialDiv>
-              <img src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/social/linkedin.png?raw=true" width='45px' />
+              <img src="./src/assets/social/linkedin.png" width='45px' />
               <Skillscontent>Odilo Almeida</Skillscontent>
             </SocialDiv></Social>
 
             <Social id='uuid' target='_blank' href='https://github.com/odiloalmeida'><SocialDiv>
-              <img src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/social/github.png?raw=true" width='45px' />
+              <img src="./src/assets/social/github.png" width='45px' />
               <Skillscontent>Odilo Almeida</Skillscontent>   
             </SocialDiv></Social>
 
             <Social id='uuid' target='_blank' href="mailto:odilolima@hotmail.com"><SocialDiv>
-              <img src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/social/email.png?raw=true" width='45px' />
+              <img src="./src/assets/social/email.png" width='45px' />
               <Skillscontent>E-mail</Skillscontent>   
             </SocialDiv></Social>
 
             <Social id='uuid' target='_blank' href='https://www.instagram.com/odilolalmeida/'><SocialDiv>
-              <img src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/social/instagram.png?raw=true" width='45px' />
+              <img src="./src/assets/social/instagram.png" width='45px' />
               <Skillscontent>@odiloalmeida</Skillscontent>
             </SocialDiv></Social>
 
@@ -155,7 +155,7 @@ function App() {
           <textarea id='uuid' cols="30" rows="10" name="message" placeholder='Digite sua mensagem' required></textarea>
           <button id='uuid' type="submit">Enviar</button>
           <button id='uuid' type="reset">Limpar</button>
-          <input id='uuid' type="hidden" name="_next" value="" />
+          <input id='uuid' type="hidden" name="_next" value="https://cdn.leroymerlin.com.br/products/placa_decorativos_mdf_30x33_joia_like_joinha_1570446829_17eb_600x600.jpg" />
           <input id='uuid' type="hidden" name="_captcha" value="false" />
         </Form>
       </Footer>

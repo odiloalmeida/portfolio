@@ -155,7 +155,7 @@ function App() {
           <textarea id='uuid' cols="30" rows="10" name="message" placeholder='Digite sua mensagem' required></textarea>
           <button id='uuid' type="submit">Enviar</button>
           <button id='uuid' type="reset">Limpar</button>
-          <input id='uuid' type="hidden" name="_next" value="" />
+          <input id='uuid' type="hidden" name="_next" value="./e-mail.html" />
           <input id='uuid' type="hidden" name="_captcha" value="false" />
         </Form>
       </Footer>

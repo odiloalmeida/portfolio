@@ -155,7 +155,7 @@ function App() {
           <textarea id='uuid' cols="30" rows="10" name="message" placeholder='Digite sua mensagem' required></textarea>
           <button id='uuid' type="submit">Enviar</button>
           <button id='uuid' type="reset">Limpar</button>
-          <input id='uuid' type="hidden" name="_next" value="" />
+          <input id='uuid' type="hidden" name="_next" value="https://cdn.leroymerlin.com.br/products/placa_decorativos_mdf_30x33_joia_like_joinha_1570446829_17eb_600x600.jpg" />
           <input id='uuid' type="hidden" name="_captcha" value="false" />
         </Form>
       </Footer>
