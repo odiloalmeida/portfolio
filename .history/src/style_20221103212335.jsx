@@ -393,7 +393,6 @@ export const Contact = styled.div`
     @media screen and (max-width: 900px){
         height: 95%;
         gap: 15px;
-        padding: 0 15%;
     }
 `
 
@@ -421,10 +420,6 @@ export const Social = styled.a`
         box-shadow: 2px 2px 4px #fff;
         opacity: 1;}
         border: .1px solid #727272;
-
-    @media screen and (max-width: 900px){
-        width: 95%;
-    }
 `
 
 export const Gratz = styled.div`

@@ -393,7 +393,6 @@ export const Contact = styled.div`
     @media screen and (max-width: 900px){
         height: 95%;
         gap: 15px;
-        padding: 0 15%;
     }
 `
 
@@ -424,6 +423,8 @@ export const Social = styled.a`
 
     @media screen and (max-width: 900px){
         width: 95%;
+        padding: 0;
+        display: flex;
     }
 `
 
