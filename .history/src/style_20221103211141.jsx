@@ -376,10 +376,6 @@ export const Form = styled.form`
     border-radius: 15px;
     border: 1px solid #727272;
     height: 250px;
-
-    @media screen and (max-width: 900px){
-        margin: 10% 5%;
-    }
 `
 
 export const Contact = styled.div`
@@ -389,11 +385,6 @@ export const Contact = styled.div`
     justify-content: space-evenly;
     height: 80%;
     width: 70%;
-
-    @media screen and (max-width: 900px){
-        height: 95%;
-        gap: 15px;
-    }
 `
 
 export const SocialDiv = styled.div`

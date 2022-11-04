@@ -363,6 +363,7 @@ export const Footer = styled.footer`
         height: 100%;
         grid-template-columns: 100%;
         padding: 30px 0;
+        gap: 15px;
     }
 `
 export const Form = styled.form`

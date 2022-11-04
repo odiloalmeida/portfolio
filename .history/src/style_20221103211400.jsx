@@ -389,11 +389,6 @@ export const Contact = styled.div`
     justify-content: space-evenly;
     height: 80%;
     width: 70%;
-
-    @media screen and (max-width: 900px){
-        height: 95%;
-        gap: 15px;
-    }
 `
 
 export const SocialDiv = styled.div`

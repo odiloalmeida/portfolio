@@ -348,7 +348,7 @@ export const Boxproject = styled.div`
         width: 95%;
         min-width: 95%;
         max-width: 95%;
-        min-height: 100%;
+        min-height: 100%
     }
 `
 
@@ -358,12 +358,6 @@ export const Footer = styled.footer`
     grid-template-columns: 50% 50% ;
     align-items: center;
     padding-top: 10%;
-
-    @media screen and (max-width: 900px){
-        height: 100%;
-        grid-template-columns: 100%;
-        padding: 30px 0;
-    }
 `
 export const Form = styled.form`
     font-size: 1.5rem;
@@ -376,10 +370,6 @@ export const Form = styled.form`
     border-radius: 15px;
     border: 1px solid #727272;
     height: 250px;
-
-    @media screen and (max-width: 900px){
-        margin: 10% 5%;
-    }
 `
 
 export const Contact = styled.div`
@@ -389,11 +379,6 @@ export const Contact = styled.div`
     justify-content: space-evenly;
     height: 80%;
     width: 70%;
-
-    @media screen and (max-width: 900px){
-        height: 95%;
-        gap: 15px;
-    }
 `
 
 export const SocialDiv = styled.div`
