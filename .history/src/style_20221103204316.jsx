@@ -289,7 +289,6 @@ export const Project = styled.div`
     @media screen and (max-width: 900px){
         ::-webkit-scrollbar{
             display: none;
-            padding: 20px 0;
         }
     }
 `
@@ -302,10 +301,6 @@ export const ProjectLink = styled.a`
     background-color: rgba(25,25,112, 0.8);
     margin-bottom: 5px;
     border-radius: 30px;
-
-    @media screen and (max-width: 900px){
-        font-size: 0.7rem;
-    }
 `
 
 export const Projectimg = styled.img`
@@ -318,7 +313,6 @@ export const Projectimg = styled.img`
     display: grid;
     position: relative;
     top: 0;
-    overflow: hidden;
 `
 export const Boxproject = styled.div`
     border: 1px solid #727272;
@@ -341,13 +335,6 @@ export const Boxproject = styled.div`
         transition: all 0.5s linear 0.5ms;
         box-shadow: 2px 2px 4px #fff;
         opacity: 1;
-    }
-
-    @media screen and (max-width: 900px){
-        opacity: 1;
-        width: 100%;
-        min-width: 90%;
-        max-width: 100%;
     }
 `
 

@@ -15,13 +15,13 @@ export const First = styled.div`
     grid-template-columns: 70% 30%;
     grid-template-rows: 10% 90%;
 
-    @media screen and (max-width: 900px) {
-        height: 50vh;
+    @media screen and (max-width: 900px) {  
         grid-template-areas:
         "Header"
-        "Leftside";
+        "Leftside"
+        "Rightside";
         grid-template-columns: 100%;
-        grid-template-rows: 15% 85%;
+        grid-template-rows: 33% 33% 33%;
     }
 `
 
@@ -45,7 +45,7 @@ export const Header = styled.div`
     overflow: hidden;
 
     @media screen and (max-width: 900px) {
-        width: 100%;
+        width: 99vw;
         font-size: 10px;
         padding-right: 0px;
         font-weight: small ;
@@ -62,10 +62,6 @@ export const Leftside = styled.div`
     grid-area: Leftside;
     text-align: justify;
     grid-template-rows: repeat(6, 1fr);
-
-    @media screen and (max-width: 900px){
-        padding-top: 30px;
-}
 
 `
 
@@ -106,6 +102,7 @@ export const Hiperlinks = styled.a`
 
     @media screen and (max-width: 900px){
         padding: 0 10px;
+        align-self: flex-start;
 }
 `
 
@@ -120,8 +117,7 @@ export const Title = styled.h1`
     color: #727272;
 
     @media screen and (max-width: 900px){
-        font-size: 75px;
-        padding: 5px 25px;
+        font-size: 40px;
 }
 `
 
@@ -134,10 +130,6 @@ export const Subtitle = styled.h2`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #727272;
-
-    @media screen and (max-width: 900px){
-        font-size: 1.3rem;
-}
 `
 
 export const Description = styled.p`
@@ -150,10 +142,6 @@ export const Description = styled.p`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #727272;
-
-    @media screen and (max-width: 900px){
-        font-size: 1rem;
-}
 `
 
 export const List = styled.li`
@@ -169,9 +157,7 @@ export const Ul = styled.ul`
     position: fixed;
 
     @media screen and (max-width: 900px){
-        justify-content: space-evenly;
-        padding: 0;
-        width: 80%;
+        justify-content: start;
 }
 `
 
@@ -184,15 +170,6 @@ export const Middle = styled.div`
     "Section1 Section2";
     grid-template-columns: 30% 70%;
     grid-template-rows: 100%;
-
-    @media screen and (max-width: 900px){
-        grid-template-areas:
-        "Section2"
-        "Section1";
-        grid-template-rows: 50% 50%;
-        grid-template-columns: 100%;
-        padding: 20px;
-}
 `
 
 export const Aside1 = styled.div`
@@ -202,13 +179,6 @@ export const Aside1 = styled.div`
     padding: 10px;
     align-items: center;
     gap: 15px;
-
-    @media screen and (max-width: 900px){
-        gap: 0;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-}
 `
 
 export const Skills = styled.div`
@@ -231,28 +201,11 @@ export const Skills = styled.div`
         box-shadow: 2px 2px 4px #fff;
         opacity: 1;
     }
-
-    @media screen and (max-width: 900px){
-        width: 90%;
-        font-size: 0.6rem;
-    }
 `
 
 export const Skillscontent = styled.p`
     color: #fff;
     font-size: 20px;
-
-    @media screen and (max-width: 900px){
-        font-size: 0.8rem;
-}
-`
-
-export const Wrongimg = styled.img`
-    padding-left: 25px;
-
-    @media screen and (max-width: 900px){
-        padding-left: 10px;
-}
 `
 
 export const Aside2 = styled.div`
@@ -261,10 +214,6 @@ export const Aside2 = styled.div`
     flex-direction: column;
     padding-top: 10px;
     padding-right: 30px;
-
-    @media screen and (max-width: 900px){
-        padding-right: 0;
-    }
 `
 export const Project = styled.div`
     overflow: auto;
@@ -285,13 +234,12 @@ export const Project = styled.div`
         background-color: #fff;
         border-radius: 300px;
     }
+`
 
-    @media screen and (max-width: 900px){
-        ::-webkit-scrollbar{
-            display: none;
-            padding: 20px 0;
-        }
-    }
+export const ProjectTitle = styled.h4`
+    font-weight: 2.5rem;
+    height: 50px;
+    font-size: 2.5rem;
 `
 
 export const ProjectLink = styled.a`
@@ -302,10 +250,6 @@ export const ProjectLink = styled.a`
     background-color: rgba(25,25,112, 0.8);
     margin-bottom: 5px;
     border-radius: 30px;
-
-    @media screen and (max-width: 900px){
-        font-size: 0.7rem;
-    }
 `
 
 export const Projectimg = styled.img`
@@ -318,7 +262,6 @@ export const Projectimg = styled.img`
     display: grid;
     position: relative;
     top: 0;
-    overflow: hidden;
 `
 export const Boxproject = styled.div`
     border: 1px solid #727272;
@@ -342,13 +285,6 @@ export const Boxproject = styled.div`
         box-shadow: 2px 2px 4px #fff;
         opacity: 1;
     }
-
-    @media screen and (max-width: 900px){
-        opacity: 1;
-        width: 100%;
-        min-width: 90%;
-        max-width: 100%;
-    }
 `
 
 export const Footer = styled.footer`
@@ -369,6 +305,10 @@ export const Form = styled.form`
     border-radius: 15px;
     border: 1px solid #727272;
     height: 250px;
+`
+
+export const Wrongimg = styled.img`
+    padding-left: 25px;
 `
 
 export const Contact = styled.div`

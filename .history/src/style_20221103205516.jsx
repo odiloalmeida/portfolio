@@ -289,7 +289,6 @@ export const Project = styled.div`
     @media screen and (max-width: 900px){
         ::-webkit-scrollbar{
             display: none;
-            padding: 20px 0;
         }
     }
 `
@@ -328,8 +327,6 @@ export const Boxproject = styled.div`
     flex-direction: column;
     color: black;
     width: 45%;
-    min-width: 45%;
-    max-width: 80%;
     opacity: 0.8;
     align-items: center;
     justify-content: center;
@@ -345,9 +342,6 @@ export const Boxproject = styled.div`
 
     @media screen and (max-width: 900px){
         opacity: 1;
-        width: 100%;
-        min-width: 90%;
-        max-width: 100%;
     }
 `
 

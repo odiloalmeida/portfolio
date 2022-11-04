@@ -345,9 +345,10 @@ export const Boxproject = styled.div`
 
     @media screen and (max-width: 900px){
         opacity: 1;
-        width: 100%;
-        min-width: 90%;
+        width: 80%;
+        min-width: 80%;
         max-width: 100%;
+        padding: 0 15px;
     }
 `
 

@@ -129,7 +129,7 @@ function App() {
 
             <Social id='uuid' target='_blank' href='https://www.linkedin.com/in/odilo-almeida-7538a4236/'><SocialDiv>
               <img src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/social/linkedin.png?raw=true" width='45px' />
-              <Skillscontent>LinkedIn</Skillscontent>
+              <Skillscontent>Linkedin</Skillscontent>
             </SocialDiv></Social>
 
             <Social id='uuid' target='_blank' href='https://github.com/odiloalmeida'><SocialDiv>
