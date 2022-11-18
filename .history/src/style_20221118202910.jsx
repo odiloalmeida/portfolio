@@ -355,7 +355,7 @@ export const Boxproject = styled.div`
         min-width: 95%;
         max-width: 95%;
         min-height: 100%;
-        height: 300px;
+        height: 250px;
     }
 `
 
