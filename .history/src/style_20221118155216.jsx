@@ -181,7 +181,7 @@ export const Ul = styled.ul`
 `
 
 export const Middle = styled.div`
-    width: 90vw;
+    width: 100vw;
     height: 120vh;
     display: grid;
     padding-top: 10vh;
@@ -196,7 +196,7 @@ export const Middle = styled.div`
         "Section1";
         grid-template-rows: 50% 50%;
         grid-template-columns: 100%;
-        padding: 50px 5%;
+        padding: 0px 0px;
 }
 `
 

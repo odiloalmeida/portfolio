@@ -154,7 +154,7 @@ export const Description = styled.p`
     @media screen and (max-width: 900px){
         font-size: 1rem;
         padding: 20px 25px;
-        background-image: linear-gradient(to bottom, #fdfdfd, #fff, #fdfdfd, #fff);
+        background-image: linear-gradient(to bottom, #727272, #fdfdfd, #727272, #f9f9f9);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -181,7 +181,7 @@ export const Ul = styled.ul`
 `
 
 export const Middle = styled.div`
-    width: 90vw;
+    width: 100vw;
     height: 120vh;
     display: grid;
     padding-top: 10vh;
@@ -196,7 +196,7 @@ export const Middle = styled.div`
         "Section1";
         grid-template-rows: 50% 50%;
         grid-template-columns: 100%;
-        padding: 50px 5%;
+        padding: 50px 25px;
 }
 `
 
