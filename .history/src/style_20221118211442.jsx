@@ -281,6 +281,17 @@ export const Project = styled.div`
     padding: 60px 0;
     justify-items: center;
 
+    
+    @media screen and (max-width: 900px){
+
+        padding: 0;
+        margin: 20px 0;
+
+        ::-webkit-scrollbar{
+            display: none;
+            
+        }
+
     ::-webkit-scrollbar{
         background-color: #191970;
         height: 5px;
@@ -292,16 +303,6 @@ export const Project = styled.div`
         border-radius: 300px;
     }
 
-    
-    @media screen and (max-width: 900px){
-
-        padding: 0;
-        margin: 20px 0;
-
-        ::-webkit-scrollbar{
-            display: none;
-            
-        }
     }
 `
 
