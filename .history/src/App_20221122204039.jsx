@@ -100,12 +100,6 @@ function App() {
             </Boxproject>
 
             <Boxproject id='uuid'>
-              <a id='uuid' target="_blank" href='https://qrgenerator.odilolalmeida.tech/'><Projectimg src='https://github.com/odiloalmeida/qrcode-generator/blob/master/src/assets/screenview.png?raw=true'/></a>
-              <Description id='uuid'>Gerador QrCode</Description>
-              <ProjectLink id='uuid' href="https://github.com/odiloalmeida/qrcode-generator" target="_blank">Link Repositório</ProjectLink>
-            </Boxproject>
-
-            <Boxproject id='uuid'>
               <a id='uuid' target="_blank" href='https://coinconverter.odilolalmeida.tech'><Projectimg src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/coin-converter.png?raw=true"/></a>
               <Description id='uuid'>Conversor Monetário | JavaScript</Description>
               <ProjectLink id='uuid' href="https://github.com/odiloalmeida/coin-converter" target="_blank">Link Repositório</ProjectLink>
@@ -121,6 +115,12 @@ function App() {
               <a id='uuid' target="_blank" href='https://insta-clone.odilolalmeida.tech'><Projectimg src="https://github.com/odiloalmeida/portfolio/blob/master/src/assets/insta.png?raw=true"/></a>
               <Description id='uuid'>Clone Instagram</Description>
               <ProjectLink id='uuid' href="https://github.com/odiloalmeida/instagram-clone" target="_blank">Link Repositório</ProjectLink>
+            </Boxproject>
+
+            <Boxproject id='uuid'>
+              <a id='uuid' target="_blank" href='https://qrgenerator.odilolalmeida.tech/'><Projectimg src='https://github.com/odiloalmeida/qrcode-generator/blob/master/src/assets/screenview.png'/></a>
+              <Description id='uuid'>Gerador QrCode</Description>
+              <ProjectLink id='uuid' href="https://github.com/odiloalmeida/qrcode-generator" target="_blank">Link Repositório</ProjectLink>
             </Boxproject>
 
           </Project>
